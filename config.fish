@@ -1,8 +1,6 @@
 function fish_prompt
 	echo -n \n  
-	# echo -n (set_color blue)"$USER"(set_color white)"@$hostname"(set_color yellow) " " (set_color cyan)"$PWD"\n
 	echo -n (set_color blue)"$USER"(set_color white)"🏯$hostname"(set_color yellow) "🌊" (set_color cyan)"$PWD"\n
-	# echo -n (set_color red)"➤ " (set_color normal)
 	echo -n (set_color red)"🦅 " (set_color normal)
 end
 
@@ -63,6 +61,7 @@ thefuck --alias | source
 # Programming languages
 set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME ; set -gx PATH $HOME/.cabal/bin $PATH /home/rumen/.ghcup/bin # ghcup-env
 alias flutter="/usr/lib/flutter/bin/flutter"
+set -gx GOPATH /home/rumen/.local/bin
 
 # Created by `pipx` on 2024-01-28 23:09:35
 set PATH $PATH /home/rumen/.local/bin
