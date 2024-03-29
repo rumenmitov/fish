@@ -1,11 +1,6 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
-SETUVAR ANDROID_HOME:\x1d
-SETUVAR --export ANDROID_SDK_ROOT:\x1d
 SETUVAR EDITOR:\x1d
-SETUVAR --export HODOI_COLORIZE:1
-SETUVAR --export HOWDOI_COLORIZE:duckduckgo
-SETUVAR --export HOWDOI_SEARCH_ENGINE:duckduckgo
 SETUVAR JAVA_HOME:/usr/bin/java
 SETUVAR --export LS_COLORS:\x2a\x2epy\x3d33\x3adi\x3d34\x3a\x2a\x2eh\x3d35\x3a\x2a\x2epdf\x3d4\x3b37
 SETUVAR __fish_initialized:3400
